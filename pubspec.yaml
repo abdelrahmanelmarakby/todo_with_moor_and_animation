@@ -1,0 +1,28 @@
+---
+name: todo_moor_app
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: '>=2.7.0 <3.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  moor_flutter: ^4.0.0
+  moor: ^4.2.1
+  path: ^1.8.0
+  path_provider: ^2.0.1
+  date_picker_timeline: ^1.2.3
+  provider: ^5.0.0
+  flutter_slidable: ^0.6.0
+  google_fonts: ^2.0.0
+  animate_do: null
+  get: ^4.1.4
+dev_dependencies:
+  moor_generator: ^4.2.2
+  build_runner: ^2.0.1
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
