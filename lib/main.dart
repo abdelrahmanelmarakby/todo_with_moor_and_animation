@@ -13,7 +13,8 @@ class MyApp extends StatelessWidget {
       create: (_) => AppDataBase(),
       child: GetMaterialApp(
         title: "Todo APP",
-        home: HomePage(),
+        home: HomePage(), 
+        defaultTransition: Transition.fadeIn,
       ),
     );
   }
