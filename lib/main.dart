@@ -15,6 +15,8 @@ class MyApp extends StatelessWidget {
         title: "Todo APP",
         home: HomePage(), 
         defaultTransition: Transition.fadeIn,
+        enableLog: true,
+        
       ),
     );
   }
